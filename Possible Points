@@ -1,0 +1,49 @@
+➡ Operations
+✘     • Log into a remote server using SSH or SFTP
+✘     • Install and configure one web server of choice (Caddy, NGINX, Apache, …)
+✘     • Configure said web server to handle PHP correctly
+✘     • Make sure PHP is capable of talking to the database—PostgreSQL—correctly
+
+➡ Frontend
+✘     • About page (HTML, CSS)
+✘     • A page visualizing live data from the database (HTML, CSS, PHP, JavaScript, jQuery, AJAX, PHP)
+✘     • A page that can return the contents of the database in JSON, XML, or another format (PHP)
+
+➡ Backend
+✘     • CRUD endpoints
+✘     • RESTful API
+✘     • Data stored in the database
+
+➡ Security
+✘     • No SQL injections
+✘     • No default passwords
+✘     • Proper use of PKI (ssh keys)
+✘     • Services run as their own users
+✘     • Services are isolated
+
+➡ Teamwork
+✘     • Good git commit messages
+✘     • Proper use of GitHub pull requests
+✘     • Clear and plentiful GitHub issues
+✘     • The team was capable of working asynchronously
+✘     • Documentation was written
+
+➡ Hardware
+✘     • Headless device that can use the REST API to upload data to the server
+✘     • A service that starts when the device boots
+✘     • Maybe the device can even pull data from the server to change its behavior?
+
+➡ Nice extra's
+✘     • Amaze me 😉
+
+➡ Presentation
+✘     • Explain what you created, and how you created it
+✘     • Tell me the story of how the group worked together
+✘     • Tell me what went well, and what did not
+✘     • Give a tech demo (I'll pray to the demo gods for you)
+✘     • Q&A
+
+
+
+✓
+✘
