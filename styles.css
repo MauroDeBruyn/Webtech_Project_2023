@@ -28,3 +28,8 @@ a:hover {
 a {
   color: #666699;
 }
+
+.alignleft
+{
+  float: left;
+}
