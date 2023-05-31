@@ -1,91 +1,13 @@
-/* Reset Styles */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333333;
-    background-color: #ffffff;
-}
-
-/* Header Styles */
-header {
-    background-color: #f1f1f1;
-    padding: 20px;
-}
-
-h1 {
+h1
+{
     font-size: 24px;
     font-weight: bold;
     color: #333333;
 }
 
-/* Navigation Styles */
-nav {
-    background-color: #333333;
-    padding: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Content Styles */
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-    font-size: 14px;
-    color: #999999;
-}
-
-/* Media Queries */
-@media (max-width: 767px) {
-    /* Styles for mobile devices */
-    header {
-        padding: 10px;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 5px 0;
-    }
-
-    footer {
-        font-size: 12px;
-    }
+body {
+  background-image: url('Pictures/Background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
