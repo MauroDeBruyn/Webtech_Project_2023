@@ -133,6 +133,6 @@ p
 
 .video {
   position: relative;
-  padding-top: 56.25%; /* Set the aspect ratio (16:9) for responsive video */
-  margin-top: 20px; /* Add margin to move the video below the blue bars */
+  padding-top: 100%;
+  margin-top: 50px;
 }
