@@ -1,48 +1,95 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <!--Background-->
 <style>
-body
-{
+body {
   background-image: url('Pictures/grey.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+
+.person-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.person-image {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.person-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-info {
+  width: 300px;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.btn-person {
+  align-self: flex-end;
+  margin-top: 10px;
+}
 </style>
 
 <!-- Tab Pic + Tab Title -->
-  <title>Live data</title>
-  <link rel="icon" href="Pictures\Tab_pic.jpg">
-</head>
+<title>Live data</title>
+<link rel="icon" href="Pictures\Tab_pic.jpg">
 
 <!--Title-->
-  <center>
-    <h1> Music is more than a hobby </h1>
-  </center>
+<center>
+  <h1> Music is more than a hobby </h1>
+</center>
 
 <!--Site Header-->
-  <header class="site-header">
-    <nav class="site-navigation">
-      <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Creators.html">Creators</a></li>
-        <li><a href="LiveData.html">Live Data</a></li>
-      </ul>
-  </header>
+<header class="site-header">
+  <nav class="site-navigation">
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Creators.html">Creators</a></li>
+      <li><a href="LiveData.html">Live Data</a></li>
+    </ul>
+</header>
 
-  <p>Get to know the creators of this website below!</p>
+<center>
+  <div class="person-container">
+    <img src="Pictures/loic.jpg" class="person-image">
+    <div class="person-info-container">
+      <div class="person-info" id="person-info1"></div>
+      <button id="btn-person1" class="btn-person">Loic</button>
+    </div>
+  </div>
 
-  <center>
-    <img src="Pictures/loic.jpg" class="image">
-    <img src="Pictures/joos.jpg" class="image">
-    <img src="Pictures/mauro.jpg" class="image">
-  </center>
+  <div class="person-container">
+    <img src="Pictures/joos.jpg" class="person-image">
+    <div class="person-info-container">
+      <div class="person-info" id="person-info2"></div>
+      <button id="btn-person2" class="btn-person">Joos</button>
+    </div>
+  </div>
 
+  <div class="person-container">
+    <img src="Pictures/mauro.jpg" class="person-image">
+    <div class="person-info-container">
+      <div class="person-info" id="person-info3"></div>
+      <button id="btn-person3" class="btn-person">Mauro</button>
+    </div>
+  </div>
+</center>
 
+<!-- JavaScript Code -->
+<script src="myscripts.js"></script>
 </html>
