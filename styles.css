@@ -130,3 +130,9 @@ p
   align-self: flex-end;
   margin-top: 10px;
 }
+
+.video {
+  position: relative;
+  padding-top: 56.25%; /* Set the aspect ratio (16:9) for responsive video */
+  margin-top: 20px; /* Add margin to move the video below the blue bars */
+}
