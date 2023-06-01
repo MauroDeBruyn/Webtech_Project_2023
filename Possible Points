@@ -1,5 +1,5 @@
 ➡ Operations
-✘     • Log into a remote server using SSH or SFTP
+✓     • Log into a remote server using SSH or SFTP
 ✘     • Install and configure one web server of choice (Caddy, NGINX, Apache, …)
 ✘     • Configure said web server to handle PHP correctly
 ✘     • Make sure PHP is capable of talking to the database—PostgreSQL—correctly
@@ -22,7 +22,7 @@
 ✘     • Services are isolated
 
 ➡ Teamwork
-✘     • Good git commit messages
+✓     • Good git commit messages
 ✘     • Proper use of GitHub pull requests
 ✘     • Clear and plentiful GitHub issues
 ✘     • The team was capable of working asynchronously
