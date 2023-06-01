@@ -6,13 +6,6 @@ h1
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  background-image: url('Pictures/Background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 a:hover {
   color: #9494b8;
 }
@@ -24,11 +17,19 @@ a {
   font-family: Verdana, sans-serif;
 }
 
-.alignleft
+.putBackground
+{
+  background-image: url('Pictures/Background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.alignLowerLeftCorner
 {
   position: absolute;
-  top: 600px;
-  left: 16px;
+  top: 650px;
+  left: 50px;
   border: 3px solid #9494b8;
   padding: 10px;
 }
