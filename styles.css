@@ -77,3 +77,12 @@ li
   font-size: 5px;
   letter-spacing:1px;
 }
+
+.image
+{
+  border-radius: 50%;
+  max-width: 14%;
+  max-height: 14%;
+  padding: 50px;
+
+}
