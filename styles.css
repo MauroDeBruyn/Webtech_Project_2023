@@ -20,14 +20,6 @@ a {
   font-family: Verdana, sans-serif;
 }
 
-.putBackground
-{
-  background-image: url('Pictures/Background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 .alignLowerLeftCorner
 {
   position: absolute;
@@ -37,14 +29,13 @@ a {
   padding: 10px;
 }
 
-
 body {
   font-family: Helvetica;
   margin: 0;
 }
 a {
   text-decoration: none;
-  color: #000;
+  color: #ccc;
 }
 .site-header {
   border-bottom: 1px solid #ccc;
